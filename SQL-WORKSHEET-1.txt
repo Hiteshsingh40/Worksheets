@@ -1,0 +1,36 @@
+Ans1. A and D
+
+Ans2. A,B and C
+
+Ans3. B
+
+Ans4. B
+
+Ans5. A
+
+Ans6. C
+
+Ans7. B
+
+Ans8. B
+
+Ans9. B 
+
+Ans10. A 
+
+Ans11. A Data Warehouse is a type of data management system that is designed to enable and support business   intelligence (BI) activities, especially analystics. Data  Warehouse are solely intended to perform qureries and   analysis and after contain large amount of historical data. The Data within a data warehouse is usually  derived   from wide range of source such as application log files and transaction.
+
+Ans12. (1)Basic difference between OLAP AND OLTP is OLAP is used for data analysis like sales analysis, market    reserch example of OLAP is Data Warehouse and OLTP is  used to manage very large number of online short    transaction for example ATM.
+(2)OLAP uses data warehouse and OLTP uses traditional DBMS.
+(3)OLAP manages all inser,update and delete transaction and OLTP is mainly used for data reading.
+
+Ans13. Four unique charecteristics of Data Warehouse
+(1)Subject-Oriented: They can analyze data about a paticular subject or functional area (such as sales)
+(2)Integrated:- Data warehouse create consistency among different datatypes from disparate sources.
+(3)NonVolatile:- Once data is in a data warehouse, it is stable and doesn't change.
+(4)Time-Variant:-Data warehouse analysis looks at change overtime.
+  The data warehouse serves as the functional foundation for middleware BI environments that provides end users     with reports, dashboard and other interface.
+
+Ans14. The Star Schema architecture is the simplest data warehouse schema. It is called a star schema because the  diagram resembles a star, with points radiating  from center. The center of the star consist of fact table and the point of the star are the dimension tables. Usually the fact tables in a star are in third normal  form (3NF)   where as dimensional tables are de-normalized. Despite the fact that the star schema is the simplest architecher   it is most commonly used nowdays and  is recommended by oracle.
+
+Ans15. Short for set Theory as a Language (or set language), SETl is a high-level-programming language that's     based on the mathematical theory of sets. It was  developed in the early 1970's by mathematician Professor j.      Schwartz. SETL is an resembles C and in many cases similar to Perl. In SETL every statment is  terminated by a semicolon.Variables names are automatically determined by their last assignment.
