@@ -1,0 +1,52 @@
+Ans1. C
+
+Ans2. C
+
+Ans3. C
+
+Ans4. D
+
+Ans5. C
+
+Ans6. B
+
+Ans7. C
+
+Ans8. B and C
+
+Ans9. A and B
+
+Ans10. A,B and D
+
+Ans11. Outliers are extrem values that deviate from other observation on data. Outliers is an observation that diverges from an overall pattern on a sample.
+In staistics an outliers is a datapoint that differs significantly from oters observation.
+
+The box plot is a useful graphical display for discribing the behaviour of the data in the middle as well as the ends of the distribution.
+The median is the median (or center point) also called second quartile of the data
+Q1 is the first quartile of the data i.e. to say 25% of the data lies between minimum and Q1
+Q3 is the the third quartile of the data, i.e. to say 75 % of the data lies between minimum and Q3
+
+The difference between Q3 and Q1 is called the Inter-Quartile range or IQR=Q3-Q1
+
+Lower Bound= (Q1-1.5*IQR)
+Upper Bound= (Q3+1.5*IQR)
+Any dta point less than the lower bound or more than the upper Bound is considerd as outliers.
+
+Ans12. In Bagging each model recive equal weight but in boosting models are weighted according to their performance
+In Bagging is built independently and in Boosting new models are influenced by performance of previously built models.
+Bagging tries to solve overfitting problems and Boosting to reduce bias.
+If the Classifier is unstable (High variance) then apply bagging. If the classifier is stable and simple (high Bias) then apply Boosting.
+
+Ans13. R2 shows how well terms (data points) fit a curve or line. Adjusted R2 also indicated how well terms fit a curve or line , but adjusts for the number of terms in a model. If you add more and more useless variables to a model, adjusted r-squared will decreses.If you add more useful variables,adjusted r-squared will increses.Adjusted R2 will always be less than or equal to R2.
+R2adj=1-[(1-R2)(n-1)/n-k-1]
+where N is the number of points in your data sample.
+
+Ans14. Standardization:- Standardization (or z-score normalization) is the process of rescaling the features so that they'll have the properties of a Gaussian distribution with mean=0 and standard deviation=1.
+
+Normalization:- Normalization often also simply called Min-Max scaling basically shrinks the range of the data such that the range is fixed between 0 and 1 (or -1 to 1 if there are negative values).It workes better for cases in which the standardization might not work so well. If the distribution is not Gaussian or the standard deviation is very small, the Min-Max scaler works better.
+
+Ans15. Cross validation is having the option of Kfold. Kfold is used an integer value is passed to cv.Integer value depends upon the dataset size if k=10 taken.
+We will use 10 kfold to divide our dataset into 10 folds. Every fold own accuracy score and the average of all fold value accuracy score is the final percentage the learning rate of particular model.
+Cross validation is used to trained the model to avoid any kind of Bias and Varied data. Cross Validation avoid the under fitting and over fitting to the model and make model more learn with different –different data of training and testing.
+Advantages and Disadvantages
+Advantages of this method is that we make use of all data point and hence it is low bias. and disadvantages of this method is that it leads to higher variation in the testing model as we are testing against one data point and it takes a lot of excution time as it iterates over the number of data points, times.
