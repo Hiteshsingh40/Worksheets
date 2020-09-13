@@ -1,0 +1,62 @@
+Ans1. B
+
+Ans2. C
+
+Ans3. A
+
+Ans4. A
+
+Ans5. C
+
+Ans6. A 
+
+Ans7. C
+
+Ans8. B
+
+Ans9. A,B and D
+
+Ans10. A and D
+
+Ans11. List:- A List is a mutable, ordered sequences of items. As such, it can be indexed,sliced and changed. Each element can be accessed using its position in the list. 
+List can be used for any type of object, from numbers and string to more lists.
+They are accessed just like string (e.g. slicing and concatenation) so they are similar to use they're variable length, i.e. they grow and shrink automatically as they're used.
+List variables are declared by using brackets [] follwing the variable name.
+
+Tuple:- Tuple work exactly like lists. A tuple contain a sequence of items of many types. The element of tuple are fixed. Once a tuple has been created we cannot add or delete elements, or even shuffled their order. Hence tuples are immutable. This means that once created, they cannot be changed since tuples are immutable, their length is also fixed. Anew tuple must br created to grow or shrnk an earlier one.
+
+Sets:- A set is an unordered collection of unique elements without duplicates.A set is mutable. Hnce we can easily add or remove element from set. The set data structure in python is used to support mathematical set opertation.
+
+Dictionaries:- A dictionary is a collection that store values along with keys. The sequence of such key and value pairs is seprated by commas. These pairs are sometimes called entries or items. All enteries are enclosed in curly barckets{and}. A colon seprated a key and its value. Sometimes, items within dictionaries are also called associated arrays becauses they associate a key with a value.
+
+Ans12. No,String is not mutable in python. String are inmutable sequence of characters for example
+
+str='I Love Python'
+str1[0]= 'U'
+print(str1)  # output shows error
+
+s1= 'I+Love+Python'
+s2=s1.replace('+',' ')
+s2
+'I Love Python'
+
+Ans13. Python uses the in-built function ord() to return the ASCII value for a given charecter. The following example demonstrates the use of the in-built function ord()
+
+example 
+ord('A')
+65
+a
+ord('a')
+97
+s2= 'I Love Python'
+type(s2)
+str
+a=123
+type(a)
+int
+
+Ans14. Coding File
+
+
+Ans15. Coding File
+
