@@ -1,0 +1,41 @@
+
+
+                                               WEB SCRAPING – WORKSHEET 4
+
+
+
+Ans1.(A) get_by_name()
+
+Ans2. (D)  All of the above
+
+Ans3. (B) Explicit wait
+
+Ans4.(D) All of the above
+
+Ans5. (D) all of the above
+
+Ans6. (A) A) For large data Scrapy is faster than selenium
+
+Ans7. (D)  both A & B 
+
+Ans8. (C) C) Hyper Text Markup Language
+
+Ans9. (B) B) soup=BeautifulSoup(html_doc,’html.parser’)
+
+Ans10. (D) “html-xml”
+
+Ans11. (C) find_next()
+
+Ans12. (D) None of the above
+
+Ans13. (C) limit 
+
+Ans14. (A) recursive = True
+
+
+Ans15. find()： Gets the first tag of the incoming HTML object that satisfies the condition and returns. A function of a label group or a single label.
+       Prototype: find(tag, atributes, recursive, text, keywords)
+
+findAll()： Get all the conditions of the incoming HTML object and return it.
+Prototype: findAll(tag, atributes, recursive, text, limit, keywords)
+
