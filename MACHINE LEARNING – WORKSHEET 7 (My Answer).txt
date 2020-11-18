@@ -1,0 +1,26 @@
+
+
+                                        MACHINE LEARNING – WORKSHEET 7
+
+
+Ans1. (A) SVMs use hyperplanes as decision boundary for classification. and 
+      (B) SVMs uses kernel functions to avoid computational load of converting the whole dataset in to higher dimensional space where the data is linearly separable.
+
+Ans2. (B)  Blue
+
+Ans3. (B) Higher the value of gamma of RBF the more flexible the classifier curve becomes in the original dimensions. and 
+      (C)  A very high value of gamma may lead to overfitting.
+
+Ans4. (B) A Soft Margin Linear classifier
+
+Ans5. (B) The margin width will Increase
+
+Ans6. (A) Figure A
+
+Ans7. (C) D3>D2>D1
+
+Ans8. (C) Gamma2 > Gamma 1 
+
+Ans9. (B) The model would consider only the points close to the hyperplane for modelling
+
+Ans10. (A) A large number of misclassification would happen 
