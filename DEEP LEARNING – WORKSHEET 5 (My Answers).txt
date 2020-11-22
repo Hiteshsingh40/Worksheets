@@ -1,0 +1,39 @@
+
+                                  DEEP LEARNING – WORKSHEET 5
+
+
+Ans1. (D) All of the above
+
+Ans2. (B) Sigmoids have slow convergence.
+
+Ans3. (D) None of the above
+
+Ans4. (A) True 
+
+Ans5. (B) Xavier Initialisation
+
+Ans6. (A) learning rate shrinks and becomes infinitesimally small
+
+Ans7. (D) momentum must be low and learning rate must be high
+
+Ans8. (C) when it has many saddle points and flat areas
+
+Ans9. (A),(C) and (D)
+
+Ans10. (C) and (D)
+
+Ans11. convex optimization :- A convex optimization problem is a problem where all of the constraints are convex functions, and the objective is a convex function if minimizing, or a concave function if maximizing.  Linear functions are convex, so linear programming problems are convex problems.  Conic optimization problems -- the natural extension of linear programming problems -- are also convex problems.
+
+Non-Convex optimization-A non-convex optimization problem is any problem where the objective or any of the constraints are non-convex, as pictured below. Such a problem may have multiple feasible regions and multiple locally optimal points within each region.
+
+Ans12. Saddle point:- A point at which a function of two variables has partial derivatives equal to zero but at which the function has neither a maximum nor a minimum value. When we optimize neural networks or any high dimensional function, for most of the trajectory we optimize, the critical points(the points where the derivative is zero or close to zero) are saddle points. Saddle points, unlike local minima, are easily escapable.
+
+Ans13. The difference between NAG and classical momentum is that NAG puts more weight on recent gradients: in fact, it gives zero weight to the first gradient descent direction after the first iteration, so the second step also be a pure gradient descent step, but with an extra big step size of (1+µ) .
+
+Ans14. The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network. If either occurs, loss gradients will either be too large or too small to flow backwards beneficially, and the network will take longer to converge, if it is even able to do so at all.
+
+Ans15. We define Internal Covariate Shift as the change in the distribution of network activations due to the change in network parameters during training. In neural
+networks, the output of the first layer feeds into the second layer, the output of the second layer feeds into the third, and so on.
+
+
+
